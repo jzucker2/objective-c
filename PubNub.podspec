@@ -6,8 +6,9 @@ Pod::Spec.new do |s|
     'PubNub, Inc.' => 'support@pubnub.com'
   }
   s.source = {
-    :git => 'https://github.com/pubnub/objective-c.git',
-    :tag => 'v3.7.10.8'
+    :git => 'https://github.com/jzucker2/objective-c.git',
+    :tag => 'v3.7.10.8',
+    :branch => 'envoy'
   }
 
   # A list of file patterns which select the source files that should be
