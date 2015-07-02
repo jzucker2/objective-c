@@ -101,6 +101,7 @@ def main():
 			for plist_item in recordings:
 				recording = Recording(plist_item)
 				recording.replace_requests(args.updatesdk)
+			plistlib.writePlist(recordings, plist)
 
 
 
